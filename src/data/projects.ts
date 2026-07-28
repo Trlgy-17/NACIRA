@@ -314,13 +314,13 @@ export const PROJECTS: Project[] = [
         caption: "Detail kabinet display dengan pintu kaca aluminium dan pencahayaan LED tersembunyi.",
       },
       {
-        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 13.ibu intan - Cihanjuang - 14 - 09 - 2024 - 002.jpeg",
-        alt: "Perspektif luas penataan lemari bawah tangga rumah tinggal Cihanjuang",
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 10.pak yuki- soreang - 12 - 09 - 2024 - 002.jpg",
+        alt: "Perspektif luas penataan lemari bawah tangga proyek Soreang",
         caption: "Perspektif luas integrasi lemari bawah tangga dengan arsitektur rumah.",
       },
       {
-        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 13.ibu intan - Cihanjuang - 14 - 09 - 2024 - 004.jpeg",
-        alt: "Detail sudut kemiringan pertukangan lemari bawah tangga kustom",
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 12.IBU YENI - RANCAEKEK - 30 - 04 - 2024 - 002.jpg",
+        alt: "Detail sudut kemiringan pertukangan lemari bawah tangga kustom Rancaekek",
         caption: "Ketelitian pertukangan sambungan sudut kemiringan tangga.",
       },
       {
