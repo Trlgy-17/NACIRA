@@ -349,9 +349,24 @@ export const PROJECTS: Project[] = [
         caption: "Tampilan lemari bawah tangga kustom proyek Cikutra.",
       },
       {
-        url: "/images/portfolio/under-stairs/SEMIKLASIK - 6.ibu Mega - Cihanjuang - 17 - 10 - 2023 - 002.jpg",
-        alt: "Detail gaya semi klasik lemari bawah tangga lis profil",
-        caption: "Variasi lemari bawah tangga gaya semi klasik dengan lis profil.",
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 14.Dara - Arcamanik - 23 - 05 - 2023 - 001.jpg",
+        alt: "Lemari bawah tangga kustom built-in proyek Arcamanik",
+        caption: "Lemari bawah tangga kustom built-in proyek Arcamanik.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 5.ibu Icha - sarijadi - 15 - 11 - 2023 - 003.jpg",
+        alt: "Detail penataan ruang simpan tersembunyi proyek Sarijadi",
+        caption: "Detail penataan ruang simpan tersembunyi proyek Sarijadi.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/MINIMALIS - 11. Bpk. Nofal - Perum. Teduh Sariwangi - 17 - 01 - 2023 - 007.jpg",
+        alt: "Tampilan gaya minimalis lemari bawah tangga Sariwangi",
+        caption: "Tampilan gaya minimalis lemari bawah tangga Sariwangi.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/FINISHING DUCO - 9.Herna - Batujajar finishing duco - 14 - 01 - 2023 - 005.jpg",
+        alt: "Detail finishing duco presisi lemari bawah tangga Batujajar",
+        caption: "Detail finishing duco presisi lemari bawah tangga Batujajar.",
       },
     ],
     isFeatured: true,
