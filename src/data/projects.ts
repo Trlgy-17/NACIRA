@@ -282,4 +282,78 @@ export const PROJECTS: Project[] = [
     ],
     isFeatured: true,
   },
+  {
+    slug: "custom-lemari-bawah-tangga-built-in",
+    title: "Custom Lemari Bawah Tangga",
+    category: "Lemari Bawah Tangga",
+    location: "Bandung & Cimahi",
+    year: "2024",
+    areaSize: "Custom Storage",
+    scope: [
+      "Custom Under Stairs Cabinetry",
+      "Hidden Storage & Pull-out Drawers",
+      "Display Glass & Indirect Sensor LED",
+      "Precision Angle & Stair Alignment",
+    ],
+    summary:
+      "Pengerjaan custom Lemari Bawah Tangga built-in presisi yang memanfaatkan ruang terbuang di bawah tangga menjadi kabinet penyimpanan estetik & multifungsi.",
+    description:
+      "Proyek perancangan dan fabrikasi kustom Lemari Bawah Tangga yang mengoptimalkan setiap sentimeter sudut ruang di bawah tangga rumah. Mengombinasikan kabinet penyimpanan tersembunyi (hidden storage), laci tarik sepatu/tas, rak display dengan pintu kaca aluminium profile, serta pencahayaan LED indirek yang memberikan kesan mewah dan rapi.",
+    conceptNotes:
+      "Fokus pada ketelitian pengukuran sudut kemiringan tangga (angle precision), sistem laci tarik beban berat (heavy-duty drawer runner), serta kerapihan manajemen kabel dan pencahayaan sensor LED.",
+    coverImage: "/images/portfolio/under-stairs/2024_11_29_15_34_IMG_6839.JPG",
+    gallery: [
+      {
+        url: "/images/portfolio/under-stairs/2024_11_29_15_34_IMG_6839.JPG",
+        alt: "Tampilan utama Lemari Bawah Tangga karya NACIRA STUDIO dengan lampu LED tersembunyi",
+        caption: "Tampilan utama Lemari Bawah Tangga presisi dengan aksen kayu dan lampu indirek.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/2024_11_29_15_35_IMG_6841.JPG",
+        alt: "Detail kabinet display lemari bawah tangga dan pintu kaca aluminium",
+        caption: "Detail kabinet display dengan pintu kaca aluminium dan pencahayaan LED tersembunyi.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 13.ibu intan - Cihanjuang - 14 - 09 - 2024 - 002.jpeg",
+        alt: "Perspektif luas penataan lemari bawah tangga rumah tinggal Cihanjuang",
+        caption: "Perspektif luas integrasi lemari bawah tangga dengan arsitektur rumah.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 13.ibu intan - Cihanjuang - 14 - 09 - 2024 - 004.jpeg",
+        alt: "Detail sudut kemiringan pertukangan lemari bawah tangga kustom",
+        caption: "Ketelitian pertukangan sambungan sudut kemiringan tangga.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 10.pak yuki- soreang - 12 - 09 - 2024 - 001.jpg",
+        alt: "Tampilan kabinet bawah tangga proyek Soreang",
+        caption: "Tampilan kabinet bawah tangga minimalis proyek Soreang.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 12.IBU YENI - RANCAEKEK - 30 - 04 - 2024 - 001.jpg",
+        alt: "Tampilan lemari bawah tangga built-in proyek Rancaekek",
+        caption: "Tampilan lemari bawah tangga built-in proyek Rancaekek.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 1.IBU ASIH - BOJONG SOANG - 06 - 05 - 2024 - 002.jpg",
+        alt: "Detail pengorganisasian interior lemari bawah tangga Bojongsoang",
+        caption: "Pengorganisasian interior laci tarik dan ruang simpan serbaguna.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - 22.Andri - Padalarang - 31 - 07 - 2024 - 003.jpg",
+        alt: "Visualisasi lemari bawah tangga proyek Padalarang",
+        caption: "Visualisasi lemari bawah tangga proyek Padalarang.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/LEMARI BAWAH TANGGA - Nining - Cikutra - 13 - 06 - 2024 - 003.jpg",
+        alt: "Tampilan lemari bawah tangga proyek Cikutra",
+        caption: "Tampilan lemari bawah tangga kustom proyek Cikutra.",
+      },
+      {
+        url: "/images/portfolio/under-stairs/SEMIKLASIK - 6.ibu Mega - Cihanjuang - 17 - 10 - 2023 - 002.jpg",
+        alt: "Detail gaya semi klasik lemari bawah tangga lis profil",
+        caption: "Variasi lemari bawah tangga gaya semi klasik dengan lis profil.",
+      },
+    ],
+    isFeatured: true,
+  },
 ];
