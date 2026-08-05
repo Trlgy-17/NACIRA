@@ -7,7 +7,9 @@ import { MessageSquare, CheckCircle2 } from "lucide-react";
 import { motion } from "motion/react";
 
 export function ConsultationSection() {
-  const waUrl = buildWhatsAppUrl();
+  const waUrl = buildWhatsAppUrl(
+    "Halo Nacira Studio, saya ingin berkonsultasi mengenai rencana proyek interior saya."
+  );
 
   return (
     <section id="consultation" className="py-24 md:py-36 bg-[#171614] text-[#fcf9f2] overflow-hidden relative">
@@ -30,23 +32,23 @@ export function ConsultationSection() {
             </h2>
 
             <p className="font-sans text-base text-[#e5e2db]/80 leading-relaxed font-light">
-              Isi formulir praktis 1-langkah di samping untuk terhubung secara langsung dengan tim Nacira Interior melalui WhatsApp.
+              Lengkapi formulir 1-langkah di samping untuk terhubung langsung dengan tim arsitek interior Nacira Studio via WhatsApp. Dapatkan analisis tata letak awal dan estimasi biaya tanpa komitmen.
             </p>
 
             <div className="pt-6 border-t border-white/10 space-y-4">
               <div className="flex items-center space-x-3 text-xs font-sans text-[#e5e2db]/80">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#25D366] animate-pulse" />
-                <span>Respon Cepat Jam Kerja (09:00 - 18:00 WIB)</span>
+                <span>Layanan Respon Cepat (09:00 - 18:00 WIB)</span>
               </div>
 
               <div className="space-y-2 text-xs font-sans text-[#a99782]">
                 <div className="flex items-center space-x-2">
                   <CheckCircle2 className="w-4 h-4 text-[#b68d40]" />
-                  <span>Free Estimasi Biaya & Konsultasi Awal</span>
+                  <span>Konsultasi & Estimasi Anggaran (RAB) Gratis</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle2 className="w-4 h-4 text-[#b68d40]" />
-                  <span>Survei Lokasi & Gambar Layout 2D Gratis</span>
+                  <span>Survei Lokasi & Gambaran Layout 2D Bebas Biaya</span>
                 </div>
               </div>
 
@@ -81,7 +83,7 @@ export function ConsultationSection() {
                     Formulir Konsultasi Proyek
                   </h3>
                   <p className="font-sans text-xs text-[#77746d] mt-1 font-light">
-                    Lengkapi informasi berikut untuk mendapatkan estimasi dan rekomendasi terbaik dari tim arsitek kami.
+                    Lengkapi informasi berikut untuk terhubung dengan konsultan arsitek kami via WhatsApp.
                   </p>
                 </div>
 

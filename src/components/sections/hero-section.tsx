@@ -5,8 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { motion } from "motion/react";
+import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 export function HeroSection() {
+  const waUrl = buildWhatsAppUrl(
+    "Halo Nacira Studio, saya ingin berkonsultasi mengenai rencana desain & build interior untuk ruangan saya."
+  );
+
   return (
     <section className="pt-28 pb-12 md:pt-36 md:pb-20 bg-[#fcf9f2] text-[#222220] overflow-hidden">
       <div className="container-custom">
@@ -61,33 +66,35 @@ export function HeroSection() {
                 transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
                 className="font-sans text-base sm:text-lg md:text-xl text-[#e5e2db]/85 max-w-2xl leading-relaxed font-light"
               >
-                Mengintegrasikan kejujuran arsitektural dengan kehangatan material alami. Kami merancang dan membangun interior hunian serta komersial berkarakter timeless di Indonesia.
+                Mengintegrasikan kejujuran arsitektural dengan kehangatan material alami. Kami merancang dan membangun interior hunian serta komersial berkarakter timeless dengan proses yang transparan.
               </motion.p>
 
-              {/* CTAs with Button-in-Button Architecture */}
+              {/* CTAs with Soft-Selling WhatsApp Link */}
               <motion.div
                 initial={{ opacity: 0, y: 24 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
                 className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4"
               >
-                {/* Primary Button */}
-                <Link
-                  href="#consultation"
+                {/* Primary Button - Direct WhatsApp Soft Selling */}
+                <a
+                  href={waUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group inline-flex items-center justify-between font-sans text-xs font-semibold tracking-widest uppercase bg-[#b68d40] text-white pl-7 pr-2 py-2 rounded-full hover:bg-[#7b580d] transition-all duration-300 active:scale-[0.98] shadow-lg shadow-[#b68d40]/20"
                 >
-                  <span>Konsultasikan Ruangan Anda</span>
+                  <span>Konsultasi Bebas Biaya via WhatsApp</span>
                   <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center ml-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300">
                     <ArrowUpRight className="w-4 h-4 text-white" />
                   </div>
-                </Link>
+                </a>
 
-                {/* Secondary Button */}
+                {/* Secondary Button - Explore Portfolio */}
                 <Link
                   href="/portfolio"
                   className="inline-flex items-center justify-center font-sans text-xs font-semibold tracking-widest uppercase text-[#fcf9f2] bg-white/5 border border-white/20 backdrop-blur-md px-8 py-4 rounded-full hover:bg-white/15 transition-all duration-300 text-center active:scale-[0.98]"
                 >
-                  Lihat Portofolio
+                  Jelajahi Portofolio
                 </Link>
               </motion.div>
 
@@ -100,15 +107,15 @@ export function HeroSection() {
               >
                 <div className="flex items-center space-x-2">
                   <CheckCircle2 className="w-4 h-4 text-[#b68d40]" />
-                  <span>Workshop Produksi Sendiri</span>
+                  <span>Workshop Fabrikasi Kustom Sendiri</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle2 className="w-4 h-4 text-[#b68d40]" />
-                  <span>Garansi 6 Bulan & After Sales</span>
+                  <span>Garansi Pemeliharaan 6 Bulan</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle2 className="w-4 h-4 text-[#b68d40]" />
-                  <span>Estimasi Biaya Transparan</span>
+                  <span>Rencana Anggaran Biaya (RAB) Transparan</span>
                 </div>
               </motion.div>
             </div>

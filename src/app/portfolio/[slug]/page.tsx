@@ -217,17 +217,19 @@ export default async function ProjectDetailPage({
             <h3 className="font-display text-3xl sm:text-4xl text-[#fcf9f2]">
               Ingin Mewujudkan Karakter Ruang Serupa?
             </h3>
-            <p className="font-sans text-sm text-[#e5e2db]/80 font-light">
-              Jadwalkan diskusi konsep awal bersama tim arsitek interior NACIRA STUDIO.
+            <p className="font-sans text-sm sm:text-base text-[#e5e2db]/80 font-light">
+              Diskusi konsep awal & estimasi Rencana Anggaran Biaya (RAB) gratis bersama tim arsitek interior NACIRA STUDIO via WhatsApp.
             </p>
           </div>
-          <Link
-            href="/#consultation"
-            className="group inline-flex items-center space-x-2 font-sans text-xs font-semibold tracking-widest uppercase bg-[#b68d40] text-white px-8 py-4 rounded-full hover:bg-[#7b580d] transition-all duration-300 shrink-0"
+          <a
+            href={`https://wa.me/6285385069717?text=Halo%20Nacira%20Studio%2C%20saya%20tertarik%20dengan%20konsep%20${encodeURIComponent(project.title)}%20dan%20ingin%20berkonsultasi.`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center space-x-2 font-sans text-xs font-semibold tracking-widest uppercase bg-[#b68d40] text-white px-8 py-4 rounded-full hover:bg-[#7b580d] transition-all duration-300 shrink-0 shadow-lg active:scale-[0.98]"
           >
-            <span>Konsultasikan Sekarang</span>
+            <span>Diskusi Konsep via WhatsApp</span>
             <ArrowUpRight className="w-4 h-4 text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-          </Link>
+          </a>
         </div>
       </div>
     </article>

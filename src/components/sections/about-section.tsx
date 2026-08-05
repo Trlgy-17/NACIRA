@@ -244,24 +244,26 @@ export function AboutSection() {
             <h3 className="font-display text-3xl sm:text-4xl md:text-5xl text-[#fcf9f2]">
               Wujudkan Interior Impian Anda Bersama Nacira Interior
             </h3>
-            <p className="font-sans text-sm text-[#e5e2db]/80 leading-relaxed font-light">
-              Jadwalkan FREE Survey & Konsultasi bersama tim kami untuk mendapatkan rekomendasi desain serta estimasi biaya yang sesuai dengan kebutuhan proyek Anda.
+            <p className="font-sans text-sm sm:text-base text-[#e5e2db]/80 leading-relaxed font-light">
+              Jadwalkan Konsultasi Bebas Biaya bersama tim arsitek kami via WhatsApp untuk mendapatkan analisis tata letak awal serta rincian Rencana Anggaran Biaya (RAB) yang akurat.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full lg:w-auto">
-            <Link
-              href="#consultation"
-              className="inline-flex items-center justify-center space-x-2 font-sans text-xs font-semibold tracking-widest uppercase bg-[#b68d40] text-white px-8 py-4 rounded-md hover:bg-[#7b580d] transition-colors text-center shadow-md"
+            <a
+              href="https://wa.me/6285385069717?text=Halo%20Nacira%20Interior%2C%20saya%20ingin%20berkonsultasi%20mengenai%20rencana%20proyek%20interior%20saya."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center space-x-2 font-sans text-xs font-semibold tracking-widest uppercase bg-[#b68d40] text-white px-8 py-4 rounded-full hover:bg-[#7b580d] transition-all duration-300 text-center shadow-lg active:scale-[0.98]"
             >
-              <span>Book Free Survey</span>
+              <span>Konsultasi Bebas Biaya via WhatsApp</span>
               <ArrowRight className="w-4 h-4" />
-            </Link>
+            </a>
             <Link
               href="/portfolio"
-              className="inline-flex items-center justify-center font-sans text-xs font-semibold tracking-widest uppercase text-[#fcf9f2] bg-transparent border border-[#fcf9f2]/40 px-8 py-4 rounded-md hover:bg-[#fcf9f2]/10 transition-colors text-center"
+              className="inline-flex items-center justify-center font-sans text-xs font-semibold tracking-widest uppercase text-[#fcf9f2] bg-transparent border border-[#fcf9f2]/40 px-8 py-4 rounded-full hover:bg-[#fcf9f2]/10 transition-all duration-300 text-center active:scale-[0.98]"
             >
-              View Portfolio
+              Jelajahi Portofolio
             </Link>
           </div>
         </div>
