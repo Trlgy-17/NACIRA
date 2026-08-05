@@ -5,6 +5,7 @@ interface NaciraLogoProps {
   showText?: boolean;
   height?: number;
   textColor?: string;
+  subtextColor?: string;
 }
 
 export function NaciraLogo({
@@ -12,7 +13,13 @@ export function NaciraLogo({
   showText = true,
   height = 38,
   textColor = "text-[#222220]",
+  subtextColor,
 }: NaciraLogoProps) {
+  // Determine subtext color based on theme context if not explicitly provided
+  const isDarkTheme =
+    textColor.includes("white") || textColor.includes("fcf9f2") || textColor.includes("b68d40");
+  const effectiveSubtext = subtextColor || (isDarkTheme ? "text-[#b68d40]" : "text-[#77746d]");
+
   return (
     <div className={`inline-flex items-center space-x-3 ${className}`}>
       {/* Monogram Arch Mark Vector */}
@@ -22,7 +29,7 @@ export function NaciraLogo({
         viewBox="0 0 100 120"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="shrink-0 text-[#222220]"
+        className={`shrink-0 ${textColor}`}
         aria-hidden="true"
       >
         <path
@@ -40,7 +47,9 @@ export function NaciraLogo({
           >
             NACIRA
           </span>
-          <span className="font-sans font-semibold tracking-[0.35em] text-[10px] text-[#77746d] uppercase mt-1">
+          <span
+            className={`font-sans font-semibold tracking-[0.35em] text-[10px] ${effectiveSubtext} uppercase mt-1`}
+          >
             STUDIO
           </span>
         </div>

@@ -77,7 +77,7 @@ export function MobileNavigation() {
       >
         <div>
           <div className="flex items-center justify-between pb-6 border-b border-white/10">
-            <NaciraLogo height={32} showText={true} />
+            <NaciraLogo height={32} showText={true} textColor="text-[#fcf9f2]" />
             <button
               onClick={() => setIsOpen(false)}
               className="p-2.5 min-w-[44px] min-h-[44px] flex items-center justify-center text-[#fcf9f2] hover:text-[#b68d40] transition-colors rounded-full bg-white/5 border border-white/10"
