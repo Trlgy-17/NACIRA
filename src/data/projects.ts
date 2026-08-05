@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     title: "Backdrop TV & Media Wall",
     category: "Backdrop TV",
     location: "Jakarta & Bandung",
-    year: "2024",
+    year: "2025 – 2026",
     areaSize: "Custom Built-in",
     scope: [
       "Custom Backdrop TV",
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
     title: "Master Bedroom & Built-in Wardrobe",
     category: "Bedroom",
     location: "Jakarta & Bandung",
-    year: "2024",
+    year: "2025 – 2026",
     areaSize: "Custom Bedroom",
     scope: [
       "Custom Master Bedroom",
@@ -139,7 +139,7 @@ export const PROJECTS: Project[] = [
     title: "Modern Kitchen Set & Island Pantry",
     category: "Kitchen Set",
     location: "Jakarta & Bandung",
-    year: "2024",
+    year: "2025 – 2026",
     areaSize: "Custom Kitchen",
     scope: [
       "Custom Kitchen Set",
@@ -213,7 +213,7 @@ export const PROJECTS: Project[] = [
     title: "Custom Wardrobe & Walk-in Closet",
     category: "Wardrobe",
     location: "Jakarta & Bandung",
-    year: "2024",
+    year: "2025 – 2026",
     areaSize: "Custom Wardrobe",
     scope: [
       "Custom Walk-in Closet",
@@ -287,7 +287,7 @@ export const PROJECTS: Project[] = [
     title: "Custom Lemari Bawah Tangga",
     category: "Lemari Bawah Tangga",
     location: "Bandung & Cimahi",
-    year: "2024",
+    year: "2025 – 2026",
     areaSize: "Custom Storage",
     scope: [
       "Custom Under Stairs Cabinetry",

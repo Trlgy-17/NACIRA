@@ -8,7 +8,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Jakarta Selatan",
     quote:
       "NACIRA STUDIO sangat jeli dalam mengolah tata cahaya dan pemilihan material kayu alami. Ruang keluarga kami terasa jauh lebih luas, tenang, dan setiap detail pertukangan built-in cabinet sangat presisi.",
-    year: "2024",
+    year: "2025 – 2026",
   },
   {
     id: "t2",
@@ -17,7 +17,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Jakarta Pusat",
     quote:
       "Pendekatan interior komersial yang luar biasa. Pasien merasa sangat nyaman dengan suasana klinik yang hangat dan elegan, jauh dari kesan kaku medis biasa. Pengerjaan tepat waktu!",
-    year: "2023",
+    year: "2025 – 2026",
   },
   {
     id: "t3",
@@ -26,7 +26,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Jakarta Selatan",
     quote:
       "Transparansi RAB dan pengawasan langsung dari arsitek di lapangan membuat proyek berjalan lancar. Hasil finishing furnitur kustom dan akustik ruang rapat sangat memuaskan.",
-    year: "2024",
+    year: "2025 – 2026",
   },
   {
     id: "t4",
@@ -35,6 +35,6 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Ubud, Bali",
     quote:
       "Integrasi antara arsitektur interior modern dengan lanskap alam Bali dieksekusi dengan sangat indah oleh tim NACIRA. Komunikasi sangat profesional dari awal hingga pengerjaan selesai.",
-    year: "2023",
+    year: "2025 – 2026",
   },
 ];
